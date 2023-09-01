@@ -1,5 +1,6 @@
-package com.example.servingwebcontent;
+package com.example.demo3.repository;
 
+import com.example.demo3.entity.MyEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MyEntityRepository extends JpaRepository<MyEntity, Long> {
