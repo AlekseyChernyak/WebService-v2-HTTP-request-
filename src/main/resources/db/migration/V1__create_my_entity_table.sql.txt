@@ -1,0 +1,5 @@
+sql
+CREATE TABLE my_entity (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255)
+);
